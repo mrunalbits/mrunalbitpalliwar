@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+/* .headstyl{
+    margin-left: 40%;
+} */
+.imfo{
+    /* margin-left: 5%; */
+    /* margin-top:20% ; */
+}
+
+.Aboutnav li{
+    padding: 2px 10px;
+    transition: all 0.5s ease-in-out;
+}
+.Aboutnav li:hover{
+    background: #fff;
+    border-radius: 20px;
+}
+.Aboutnav li:hover a{
+    color: #000 !important;
+}
+.bgone{
+    height: 90vh;
+    background: url(./assets/backgroundimg1.jpg);
+    background-size: cover;
+}
+
+.socialmid::before{
+    content: "";
+    width: 2px;
+    height: 110px;
+    background-color: #fff;
+}
+.Aboutimfo{
+    height: 90vh;
+    background: url(./assets/backgroundimg2.jpg);
+}
+
